@@ -1,0 +1,42 @@
+_gotomesh
+_mesh 0.03
+_gotostages
+_set Model.CurrentPhase Phase_6
+_set Model.CurrentPhase Phase_5
+_delete Phase_6
+_set Model.CurrentPhase Phase_4
+_delete Phase_5
+_set Model.CurrentPhase Phase_3
+_delete Phase_4
+_set Model.CurrentPhase Phase_2
+_delete Phase_3
+_set Model.CurrentPhase Phase_1
+_delete Phase_2
+_set Model.CurrentPhase InitialPhase
+_delete Phase_1
+_phase InitialPhase
+_set Model.CurrentPhase Phase_1
+_activate Tunnels Phase_1
+_deactivate (Polygon_1_1) Phase_1
+_phase Phase_1
+_set Model.CurrentPhase Phase_2
+_activate (Line_3_1 Line_3_2 Line_3_3 Line_3_4 Line_3_5 Line_3_6 Line_3_7 Line_3_8) Phase_2
+_activate (Line_4_1) Phase_2
+_phase Phase_2
+_set Model.CurrentPhase Phase_3
+_deactivate (Polygon_2_1) Phase_3
+_activate (Point_7_1) Phase_3
+_phase Phase_3
+_set Model.CurrentPhase Phase_4
+_deactivate (Polygon_3_1) Phase_4
+_activate (Point_8_1) Phase_4
+_phase Phase_4
+_set Model.CurrentPhase Phase_5
+_deactivate (Polygon_4_1) Phase_5
+_activate (Point_9_1) Phase_5
+_phase Phase_5
+_set Model.CurrentPhase Phase_6
+_deactivate (Polygon_5_1) Phase_6
+Calculate
+Save
+__kill
